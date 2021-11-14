@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+        h3{
+            color: #250922 ;
+            font: bold;
+        }
+        .center{
+            align-items: center;
+        }
+        .submit{
+            text-align: center;
+        }
+        .mybutton{
+            text-align: center;
+        }
+        .form{
+            text-align: center;
+            padding-left: 5%;
+        }
+    </style>
+     <title>Breast Cancer Detection</title>
+
+</head>     
+<body>
+
+    <div class="center">
+        <img src="static/banner_october_pink.png" alt="OctobreRose" width="900" height="500">
+        <form class="form" action="/result_page" method="post" enctype="multipart/form-data">
+            <label for="img">Choisir une mamographie de dépistage</label>
+            <input class=submit  type="submit">
+            <input class=mybutton type="file" id="img" name="img" accept="image/*">
+       </form>
+
+
+    </div>
+</body>
+</html>
